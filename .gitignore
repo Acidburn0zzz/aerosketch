@@ -1,3 +1,8 @@
+# System
+.swp
+.DS_Store
+npm-debug.log
+
 # Logs
 logs
 *.log
