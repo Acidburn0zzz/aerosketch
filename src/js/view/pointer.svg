@@ -1,4 +1,1 @@
-<!-- ko if:rect -->
-<rect data-bind="attr:rect" stroke="blue" stroke-width="1" 
-fill="blue" fill-opacity="0.1" />
-<!-- /ko -->
+<rect fill="#00f" fill-opacity=".1" stroke="#00f" stroke-width="1" data-bind="attr:rect"/>
