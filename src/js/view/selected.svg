@@ -1,8 +1,1 @@
-<g data-bind="visible:$root.transforming, attr:{transform:$root.transform}" >
-	<g data-bind="template:selectedTemplate,attr:{transform:buffer}"></g>
-</g>
-<g data-bind="foreach:$root.selection,attr:{opacity:$root.debounce()?0:1}" fill="black" fill-opacity="0" 
-stroke="blue" opacity="1" stroke-width="1" 
-stroke-dasharray="5, 3" >
-	<rect data-bind="attr:$parent.selectedBBox($data),visible:visible" />
-</g>
+<g fill="#000" fill-opacity="0" stroke="#00f" stroke-dasharray="5 3" stroke-width="1" data-bind="foreach:$root.selection,attr:{opacity:$root.debounce()?0:1}" opacity="1"><rect data-bind="attr:$parent.selectedBBox($data),visible:visible"/></g>

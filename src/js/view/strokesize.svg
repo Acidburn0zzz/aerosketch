@@ -1,5 +1,1 @@
-<g transform="translate(-50,0)" class="overlay" style="cursor:row-resize" stroke="none" >
-	<circle cx="100%" cy="50%" r="29" fill="#ddd" opacity="0.9" />
-	<circle cx="100%" cy="50%" data-bind="aniattr:{r:strokeSize, fill:$root.options.stroke}"/>
-</g>
-
+<g stroke="none" class="overlay" cursor="row-resize" transform="translate(-50,0)"><circle cx="100%" cy="50%" r="29" fill="#ddd" opacity=".9"/><circle cx="100%" cy="50%" data-bind="aniattr:{r:strokeSize, fill:$root.options.stroke}"/></g>
